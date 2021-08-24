@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5098AF812507B9AB00EC8331 /* HireListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5098AF802507B9AB00EC8331 /* HireListView.swift */; };
+		C2822E174352074CE84413C2 /* Pods_AurizonApplication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9ECF7C58FE6F3FB6D6489E9 /* Pods_AurizonApplication.framework */; };
+		F500DC9024CB1A2B00D482FD /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F500DC8F24CB1A2B00D482FD /* ScanView.swift */; };
+		F5330B9624FBF8A400AF645B /* CustomWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5330B9524FBF8A400AF645B /* CustomWidgets.swift */; };
+		F5330B9824FC065300AF645B /* CustomUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5330B9724FC065300AF645B /* CustomUtilities.swift */; };
+		F54632A725260E3E006B36B6 /* ReviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54632A625260E3E006B36B6 /* ReviewViewModel.swift */; };
+		F54632AA25260E79006B36B6 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54632A925260E79006B36B6 /* Vehicle.swift */; };
+		F54632AC25260EA6006B36B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54632AB25260EA6006B36B6 /* AppDelegate.swift */; };
+		F54632AE25261084006B36B6 /* VehicleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54632AD25261084006B36B6 /* VehicleViewModel.swift */; };
+		F5524F9E24E2991A00CD83F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5524F9D24E2991A00CD83F9 /* Assets.xcassets */; };
+		F552CF3624FC47A70064D3BC /* HireView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F552CF3524FC47A70064D3BC /* HireView.swift */; };
+		F552CF3C24FC48280064D3BC /* UI_Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F552CF3B24FC48280064D3BC /* UI_Utilities.swift */; };
+		F589D4D3250E2BD600876142 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F589D4D2250E2BD600876142 /* GoogleService-Info.plist */; };
+		F58CABB424CAC2FD0091DBFA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58CABB324CAC2FD0091DBFA /* SceneDelegate.swift */; };
+		F58CABB624CAC2FD0091DBFA /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58CABB524CAC2FD0091DBFA /* LoginView.swift */; };
+		F58CABBB24CAC2FF0091DBFA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F58CABBA24CAC2FF0091DBFA /* Preview Assets.xcassets */; };
+		F58CABBE24CAC2FF0091DBFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F58CABBC24CAC2FF0091DBFA /* LaunchScreen.storyboard */; };
+		F58D3B3224E660290008977F /* TileMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58D3B3124E660290008977F /* TileMenuView.swift */; };
+		F59CEA2A2538759900EADC01 /* TutorialOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CEA292538759900EADC01 /* TutorialOverlay.swift */; };
+		F5A02FEC24CDADA40073D756 /* TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A02FEB24CDADA40073D756 /* TutorialView.swift */; };
+		F5BF5CDB250A33B20049E97B /* ListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BF5CDA250A33B20049E97B /* ListRow.swift */; };
+		F5D9F96B252C08CD00636B52 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D9F96A252C08CD00636B52 /* UserViewModel.swift */; };
+		F5D9F96D252C08F600636B52 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D9F96C252C08F600636B52 /* User.swift */; };
+		F5D9F96F252C094300636B52 /* ProfileSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D9F96E252C094300636B52 /* ProfileSettingsView.swift */; };
+		F5D9F971252C094800636B52 /* GoogleMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D9F970252C094800636B52 /* GoogleMapView.swift */; };
+		F5D9F973252C094C00636B52 /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D9F972252C094C00636B52 /* OverlayView.swift */; };
+		F5D9F975252C095500636B52 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D9F974252C095500636B52 /* RemoteImage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F436A62F7283587CC820446 /* Pods-AurizonApplication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AurizonApplication.release.xcconfig"; path = "Target Support Files/Pods-AurizonApplication/Pods-AurizonApplication.release.xcconfig"; sourceTree = "<group>"; };
+		5098AF802507B9AB00EC8331 /* HireListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HireListView.swift; sourceTree = "<group>"; };
+		DEADF25AF8EB184E99504655 /* Pods-AurizonApplication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AurizonApplication.debug.xcconfig"; path = "Target Support Files/Pods-AurizonApplication/Pods-AurizonApplication.debug.xcconfig"; sourceTree = "<group>"; };
+		E9ECF7C58FE6F3FB6D6489E9 /* Pods_AurizonApplication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AurizonApplication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F500DC8F24CB1A2B00D482FD /* ScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
+		F5330B9524FBF8A400AF645B /* CustomWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomWidgets.swift; sourceTree = "<group>"; };
+		F5330B9724FC065300AF645B /* CustomUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUtilities.swift; sourceTree = "<group>"; };
+		F54632A425260E2D006B36B6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F54632A625260E3E006B36B6 /* ReviewViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewViewModel.swift; sourceTree = "<group>"; };
+		F54632A925260E79006B36B6 /* Vehicle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		F54632AB25260EA6006B36B6 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F54632AD25261084006B36B6 /* VehicleViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VehicleViewModel.swift; sourceTree = "<group>"; };
+		F5524F9D24E2991A00CD83F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F552CF3524FC47A70064D3BC /* HireView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HireView.swift; sourceTree = "<group>"; };
+		F552CF3B24FC48280064D3BC /* UI_Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI_Utilities.swift; sourceTree = "<group>"; };
+		F589D4D2250E2BD600876142 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F58CABAE24CAC2FD0091DBFA /* AurizonApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AurizonApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F58CABB324CAC2FD0091DBFA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F58CABB524CAC2FD0091DBFA /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		F58CABBA24CAC2FF0091DBFA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F58CABBD24CAC2FF0091DBFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F58D3B3124E660290008977F /* TileMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileMenuView.swift; sourceTree = "<group>"; };
+		F59CEA292538759900EADC01 /* TutorialOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialOverlay.swift; sourceTree = "<group>"; };
+		F5A02FEB24CDADA40073D756 /* TutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialView.swift; sourceTree = "<group>"; };
+		F5BF5CDA250A33B20049E97B /* ListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRow.swift; sourceTree = "<group>"; };
+		F5D9F96A252C08CD00636B52 /* UserViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		F5D9F96C252C08F600636B52 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F5D9F96E252C094300636B52 /* ProfileSettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileSettingsView.swift; sourceTree = "<group>"; };
+		F5D9F970252C094800636B52 /* GoogleMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleMapView.swift; sourceTree = "<group>"; };
+		F5D9F972252C094C00636B52 /* OverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverlayView.swift; sourceTree = "<group>"; };
+		F5D9F974252C095500636B52 /* RemoteImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F58CABAB24CAC2FD0091DBFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2822E174352074CE84413C2 /* Pods_AurizonApplication.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F5DFB877C75F9CD4F3B3924 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9ECF7C58FE6F3FB6D6489E9 /* Pods_AurizonApplication.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6235E4FD05CDE19D07D49B03 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DEADF25AF8EB184E99504655 /* Pods-AurizonApplication.debug.xcconfig */,
+				0F436A62F7283587CC820446 /* Pods-AurizonApplication.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F5330B8F24FBD0FC00AF645B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F58CABB524CAC2FD0091DBFA /* LoginView.swift */,
+				F500DC8F24CB1A2B00D482FD /* ScanView.swift */,
+				5098AF802507B9AB00EC8331 /* HireListView.swift */,
+				F5BF5CDA250A33B20049E97B /* ListRow.swift */,
+				F5A02FEB24CDADA40073D756 /* TutorialView.swift */,
+				F59CEA292538759900EADC01 /* TutorialOverlay.swift */,
+				F552CF3524FC47A70064D3BC /* HireView.swift */,
+				F5D9F972252C094C00636B52 /* OverlayView.swift */,
+				F5D9F970252C094800636B52 /* GoogleMapView.swift */,
+				F58D3B3124E660290008977F /* TileMenuView.swift */,
+				F5D9F96E252C094300636B52 /* ProfileSettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F5330B9024FBD10400AF645B /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F5D9F974252C095500636B52 /* RemoteImage.swift */,
+				F5330B9524FBF8A400AF645B /* CustomWidgets.swift */,
+				F5330B9724FC065300AF645B /* CustomUtilities.swift */,
+				F552CF3B24FC48280064D3BC /* UI_Utilities.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		F54632A825260E6C006B36B6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F54632A925260E79006B36B6 /* Vehicle.swift */,
+				F5D9F96C252C08F600636B52 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F58CABA524CAC2FD0091DBFA = {
+			isa = PBXGroup;
+			children = (
+				F58CABB024CAC2FD0091DBFA /* AurizonApplication */,
+				F58CABAF24CAC2FD0091DBFA /* Products */,
+				6235E4FD05CDE19D07D49B03 /* Pods */,
+				0F5DFB877C75F9CD4F3B3924 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F58CABAF24CAC2FD0091DBFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F58CABAE24CAC2FD0091DBFA /* AurizonApplication.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F58CABB024CAC2FD0091DBFA /* AurizonApplication */ = {
+			isa = PBXGroup;
+			children = (
+				F54632A825260E6C006B36B6 /* Model */,
+				F5A04DE4250F4AA300694B82 /* ViewModel */,
+				F5330B8F24FBD0FC00AF645B /* Views */,
+				F5330B9024FBD10400AF645B /* Utilities */,
+				F58CABB324CAC2FD0091DBFA /* SceneDelegate.swift */,
+				F54632AB25260EA6006B36B6 /* AppDelegate.swift */,
+				F5524F9D24E2991A00CD83F9 /* Assets.xcassets */,
+				F58CABBC24CAC2FF0091DBFA /* LaunchScreen.storyboard */,
+				F54632A425260E2D006B36B6 /* Info.plist */,
+				F589D4D2250E2BD600876142 /* GoogleService-Info.plist */,
+				F58CABB924CAC2FF0091DBFA /* Preview Content */,
+			);
+			path = AurizonApplication;
+			sourceTree = "<group>";
+		};
+		F58CABB924CAC2FF0091DBFA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F58CABBA24CAC2FF0091DBFA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F5A04DE4250F4AA300694B82 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F54632AD25261084006B36B6 /* VehicleViewModel.swift */,
+				F54632A625260E3E006B36B6 /* ReviewViewModel.swift */,
+				F5D9F96A252C08CD00636B52 /* UserViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F58CABAD24CAC2FD0091DBFA /* AurizonApplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F58CABC224CAC2FF0091DBFA /* Build configuration list for PBXNativeTarget "AurizonApplication" */;
+			buildPhases = (
+				FC4B98A844146C1A02E99817 /* [CP] Check Pods Manifest.lock */,
+				F58CABAA24CAC2FD0091DBFA /* Sources */,
+				F58CABAB24CAC2FD0091DBFA /* Frameworks */,
+				F58CABAC24CAC2FD0091DBFA /* Resources */,
+				206035BD705D93BF09631E9F /* [CP] Embed Pods Frameworks */,
+				F661DF11EF06EB3C4C2C7C6E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AurizonApplication;
+			productName = SwiftUITest;
+			productReference = F58CABAE24CAC2FD0091DBFA /* AurizonApplication.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F58CABA624CAC2FD0091DBFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Q-FOUR DEVELOPMENT";
+				TargetAttributes = {
+					F58CABAD24CAC2FD0091DBFA = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = F58CABA924CAC2FD0091DBFA /* Build configuration list for PBXProject "AurizonApplication" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F58CABA524CAC2FD0091DBFA;
+			productRefGroup = F58CABAF24CAC2FD0091DBFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F58CABAD24CAC2FD0091DBFA /* AurizonApplication */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F58CABAC24CAC2FD0091DBFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F58CABBE24CAC2FF0091DBFA /* LaunchScreen.storyboard in Resources */,
+				F5524F9E24E2991A00CD83F9 /* Assets.xcassets in Resources */,
+				F589D4D3250E2BD600876142 /* GoogleService-Info.plist in Resources */,
+				F58CABBB24CAC2FF0091DBFA /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		206035BD705D93BF09631E9F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AurizonApplication/Pods-AurizonApplication-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AurizonApplication/Pods-AurizonApplication-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AurizonApplication/Pods-AurizonApplication-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F661DF11EF06EB3C4C2C7C6E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AurizonApplication/Pods-AurizonApplication-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AurizonApplication/Pods-AurizonApplication-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AurizonApplication/Pods-AurizonApplication-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC4B98A844146C1A02E99817 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AurizonApplication-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F58CABAA24CAC2FD0091DBFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F552CF3C24FC48280064D3BC /* UI_Utilities.swift in Sources */,
+				F5D9F96D252C08F600636B52 /* User.swift in Sources */,
+				F59CEA2A2538759900EADC01 /* TutorialOverlay.swift in Sources */,
+				F5330B9824FC065300AF645B /* CustomUtilities.swift in Sources */,
+				F54632AE25261084006B36B6 /* VehicleViewModel.swift in Sources */,
+				F5330B9624FBF8A400AF645B /* CustomWidgets.swift in Sources */,
+				F54632A725260E3E006B36B6 /* ReviewViewModel.swift in Sources */,
+				F54632AA25260E79006B36B6 /* Vehicle.swift in Sources */,
+				5098AF812507B9AB00EC8331 /* HireListView.swift in Sources */,
+				F58D3B3224E660290008977F /* TileMenuView.swift in Sources */,
+				F5D9F975252C095500636B52 /* RemoteImage.swift in Sources */,
+				F500DC9024CB1A2B00D482FD /* ScanView.swift in Sources */,
+				F5D9F96F252C094300636B52 /* ProfileSettingsView.swift in Sources */,
+				F58CABB424CAC2FD0091DBFA /* SceneDelegate.swift in Sources */,
+				F5D9F96B252C08CD00636B52 /* UserViewModel.swift in Sources */,
+				F5A02FEC24CDADA40073D756 /* TutorialView.swift in Sources */,
+				F5D9F973252C094C00636B52 /* OverlayView.swift in Sources */,
+				F5D9F971252C094800636B52 /* GoogleMapView.swift in Sources */,
+				F552CF3624FC47A70064D3BC /* HireView.swift in Sources */,
+				F58CABB624CAC2FD0091DBFA /* LoginView.swift in Sources */,
+				F54632AC25260EA6006B36B6 /* AppDelegate.swift in Sources */,
+				F5BF5CDB250A33B20049E97B /* ListRow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F58CABBC24CAC2FF0091DBFA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F58CABBD24CAC2FF0091DBFA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F58CABC024CAC2FF0091DBFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F58CABC124CAC2FF0091DBFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F58CABC324CAC2FF0091DBFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEADF25AF8EB184E99504655 /* Pods-AurizonApplication.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AurizonApplication/Preview Content\"";
+				DEVELOPMENT_TEAM = XACLJH972L;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = AurizonApplication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.q-four.AurizonApplication";
+				PRODUCT_NAME = AurizonApplication;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F58CABC424CAC2FF0091DBFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F436A62F7283587CC820446 /* Pods-AurizonApplication.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AurizonApplication/Preview Content\"";
+				DEVELOPMENT_TEAM = XACLJH972L;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = AurizonApplication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.q-four.AurizonApplication";
+				PRODUCT_NAME = AurizonApplication;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F58CABA924CAC2FD0091DBFA /* Build configuration list for PBXProject "AurizonApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F58CABC024CAC2FF0091DBFA /* Debug */,
+				F58CABC124CAC2FF0091DBFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F58CABC224CAC2FF0091DBFA /* Build configuration list for PBXNativeTarget "AurizonApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F58CABC324CAC2FF0091DBFA /* Debug */,
+				F58CABC424CAC2FF0091DBFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F58CABA624CAC2FD0091DBFA /* Project object */;
+}

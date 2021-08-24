@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design" 
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    mc:Ignorable="d" 
+    x:Class="OurFoodituteApp.Views.AdditivePage" 
+    Title="Additive List" x:Name="BrowseItemsPage">
+    
+    <StackLayout BackgroundColor="#F0F0F0">
+
+        <SearchBar 
+            Keyboard="Default"
+            FontSize="12"
+            HeightRequest="32"
+            x:Name="AdditiveSearchBar" 
+            SearchButtonPressed="Handle_SearchButtonPressed"  
+            TextChanged="Handle_TextChanged"
+        />
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="10*" />
+            </Grid.ColumnDefinitions>
+            <ListView 
+            x:Name="ItemsListView" 
+            ItemsSource="{Binding Items}" 
+            VerticalOptions="FillAndExpand" 
+            HasUnevenRows="true" 
+            CachingStrategy="RecycleElement" 
+            ItemSelected="OnItemSelected" 
+            SeparatorColor="#009800">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid Padding="10" BackgroundColor="#404040">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+                                <Label Text="{Binding Code}" d:Text="{Binding .}" LineBreakMode="NoWrap" Style="{DynamicResource ListItemTextStyle}" FontSize="16" TextColor="White" VerticalOptions="End"/>
+                                <Label Text="{Binding Name}" d:Text="Item descripton" LineBreakMode="NoWrap" Style="{DynamicResource ListItemDetailTextStyle}" FontSize="13" TextColor="White" VerticalOptions="Start" Grid.Row="1"/>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            <ListView x:Name="SuggestionsListView"
+                      ItemsSource="{Binding Suggestions}"
+                ItemTapped="Handle_ItemTapped"
+                SeparatorColor="#009800"
+                HorizontalOptions="Center"
+                Margin="40, 0"
+                      >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid Padding="10" BackgroundColor="#F0F0F0">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+                                <Label FontSize="13" TextColor="#404040" Text="{Binding Suggestion}"/>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            
+        </Grid>
+    </StackLayout>
+</ContentPage>

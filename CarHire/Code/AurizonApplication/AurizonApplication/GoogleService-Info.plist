@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>402526935813-lcsecd9sep1jk7mmp4f8639is66unr8s.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.402526935813-lcsecd9sep1jk7mmp4f8639is66unr8s</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAe_gIFYd33WY4aq7tho6_FcgTdwPxQWSc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>402526935813</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.q-four.AurizonApplication</string>
+	<key>PROJECT_ID</key>
+	<string>aurizonvehiclehire</string>
+	<key>STORAGE_BUCKET</key>
+	<string>aurizonvehiclehire.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:402526935813:ios:2055b6f9b53c237262f56c</string>
+	<key>DATABASE_URL</key>
+	<string>https://aurizonvehiclehire.firebaseio.com</string>
+</dict>
+</plist>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design" 
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    mc:Ignorable="d" 
+    x:Class="OurFoodituteApp.Views.AdditiveDetailPage" Title="{Binding Title}">
+    
+    <ScrollView>
+        <StackLayout Spacing="20" Padding="15" BackgroundColor="#404040">
+            <Label Text="Information:" FontSize="18" TextColor="#F0F0F0"/>
+            <Label Text="{Binding Item.Info}" d:Text="Additive information" FontSize="14" TextColor="#F0F0F0"/>
+            <Label Text="Function:" FontSize="18" TextColor="#F0F0F0"/>
+            <Label Text="{Binding Item.Function}" d:Text="Additive function" FontSize="14" TextColor="#F0F0F0"/>
+            <Label Text="Common Foods:" FontSize="18" TextColor="#F0F0F0"/>
+            <Label Text="{Binding Item.Foods}" d:Text="Additive foods" FontSize="14" TextColor="#F0F0F0"/>
+            <Label Text="Notice:" FontSize="18" TextColor="#F0F0F0"/>
+            <Label Text="{Binding Item.Notice}" d:Text="Additive notice" FontSize="14" TextColor="#F0F0F0"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="OurFoodituteApp.Views.ScannerPage"
+             Title="Scanner">
+    <Grid BackgroundColor="#404040">
+        <ScrollView>
+            <StackLayout Orientation="Vertical" Padding="10" BackgroundColor="#404040">
+                <Button Text="Scan Ingredients Now" FontSize="20" BackgroundColor="#606060" Clicked="Scanner_OnClicked" TextColor="#F0F0F0"/>
+                <ActivityIndicator x:Name="Spinner" VerticalOptions="Center" HorizontalOptions="Center" Color="White"/>
+                <Label x:Name="ImagetoText" HorizontalOptions="Center" VerticalOptions="Center" FontSize="16" TextColor="White"/>
+                <Image x:Name="ImageView" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" />
+            </StackLayout>
+        </ScrollView>
+    </Grid>
+</ContentPage>

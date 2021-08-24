@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>CAB230</title>
+	<link rel="stylesheet" href="../src/styles.css" />
+	<meta charset="UTF-8" />
+</head>
+
+<body>
+	<h1>Server Side - Corruption Reattempt</h1>
+	<div id="menu">
+    <ul>
+		<li><button id="regBtn">Register</button></li>
+		<li><button id="logBtn">Login</button></li>
+		<li><button id="outBtn">Logout</button></li>
+		<li><button id="offBtn">Offence List</button></li>
+    </ul>
+  </div>
+  
+  <div id="srchbarpad">
+  <div class="searchbar">
+      <input type="text" id="offenceSearchbar" placeholder="Search Offences...">
+      <button id="srchBtn">Search</button>
+  </div>
+  </div>
+
+	<div id="fillcontainer">
+	<h2 id="offenceType">Offence Filters</h2>
+	<div id="filter">
+		<div class="filters">
+			<label>Area: </label><input type="text" id="areaCk" placeholder="area">
+			</div>
+		<div class="filters">	
+			<label>Age: </label><input type="text" id="age" placeholder="age">
+		</div>
+		<div class="filters">
+			<label>Gender: </label><input type="text"  id="gender" placeholder="gender">
+		</div>
+		<div class="filters">
+			<label>Year: </label><input type="text" id="year" placeholder="year">
+		</div>
+		<div class="filters">
+			<label>Month: </label><input type="text" id="month" placeholder="month">
+		</div>
+		<div class="dropMenus">
+		</div>
+	</div>
+	<div id="sortButtons">
+		<button id="fltrBtn">Search by filters</button>
+		<button id="clrBtn">Clear filters</button>
+		<button id="map">Generate map</button>
+		<button id="graph">Generate graph</button>
+		</div>
+	</div>
+	
+    <h2>Responses</h2>
+    <div id="app"></div>
+
+
+	<script src="../src/index.js"></script>
+</body>
+
+</html>
